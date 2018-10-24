@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<title>HTML Tutorial</title>
+<body>
+    <!-- label -->
+    <h1>Amount of euros:</h1>
+    <!--input textField-->
+    <div class="input-group input-group-sm mb-3">
+            
+            <input type="number" id="inputField" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+    <!--start button-->
+    <button type="button" onclick="cRiel()" class="btn btn-primary">Riels</button>
+
+    <button type="button" onclick="cUsd()" class="btn btn-primary">USD</button>
+    <!--result container-->
+    <div class="w3-container"> 
+            <h1>Your result:</h1>
+            <p id="ansBox"></p>
+
+        </div>
+        
+
+    <script src="convert.js"></script>
+</body>
+</html>
